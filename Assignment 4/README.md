@@ -7,4 +7,11 @@
   
  2. Echo File
   - In this Program I have used only used the main function argument (argv) in order to get the command line argument, in our case words.
-  - Then used a 
+  - Then used a for loop followed by a print statement to iterate through the words entered by the user and print them out to the user.
+
+3. Move File
+  - This file implementation is the same as the Copy File except for one slightly addition that I have used the Remove system call in order to remove the source file used for copying the data and have only the new file.
+
+4. PWD File
+  - In this program I have used only getcwd function to return the current working directory for the user.
+  - I have included a condition to check that the returned value from the function is greater than zero (or not null), if it is true then it will automatically print the directory, otherwise it will print an error message for the user.
